@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Revalia&display=swap" rel="stylesheet');
+html {
+    font-family: 'Revalia', cursive;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+.digits {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;  
+    width: 130px;
+    height: 180px;
+    grid-gap: 5px; 
+}
+.opers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 130px;
+    height: 87px;
+    grid-gap: 5px; 
+}
+.display {
+    background: #c8cfca;
+    width: 125px;
+    height: 40px;
+}
+.root {
+    height: 40px;
+    width: 40px;
+    margin: 5px 0px;
+}
+.eq {
+    height: 40px;
+    width: 40px;
+}
+.erase {
+    height: 40px;
+    width: 40px;  
+}
